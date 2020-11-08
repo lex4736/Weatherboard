@@ -29,9 +29,9 @@ day.
 <p>
 
 Select link below to view live Fall Themed Work Day Planner  Quiz <br>
-<a href="https://lex4736.github.io/weatherboard/"> Click here to view webpage </a>
+<a href="https://lex4736.github.io/Weatherboard/"> Click here to view webpage </a>
 <p>
 <b>See below for screenshot of the planner<b>
 <br><br>
-<img src="ScreenshotHW06.PNG" alt="Weatherboard">
+<img src="ScreenshotHW06.PNG" alt="Weatherboard Screenshot">
 <br><hr>
