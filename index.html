@@ -10,6 +10,31 @@
     <title>Weatherboard</title>
 </head>
 
+<header class="navbar navbar-light" style="background-color:#87CEFA">
+    <h1> Weatherboard <img src="https://openweathermap.org/img/wn/04d@2x.png"> </h1>
+</header>
+
+<main class="navbar navbar-light">
+</main>
+
+
+<aside class="container-left-fluid">
+    <article class="row">
+        <section class="col bg-light">
+            <p class="search-header my-1">Lookup Weather Condition</p>
+            <section class="input-group mb-3">
+                <input id="city-input" type="text" class="form-control" placeholder="Enter city name or zipcode" aria-label="Enter city name or zipcode">
+                <section class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </section>
+            </section>
+            <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear history</button>
+            <form id="history"></form>
+        </section>
+
+        
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="./assets/script.js"></script>

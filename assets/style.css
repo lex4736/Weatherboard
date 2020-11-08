@@ -1,0 +1,30 @@
+body {
+    background-color:#f8f9fa;
+    color: #000000;
+}
+
+h1 {
+    font-size: 65px;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+h3 {
+    color:#FAFAD2;
+    text-shadow: 2px 2px 4px #000000;
+}
+.sectiondivider {
+    border-top: 1px dashed whitesmoke;
+    padding-top: 1px;
+}
+.search-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+#search-button {
+    background-color: lightskyblue;
+}
+
+#clear-history {
+    background-color: lightskyblue;
+    border-color: gray;
