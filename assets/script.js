@@ -5,6 +5,11 @@ function initPage() {
     const currentHumidityEl = document.getElementById("humidity");4
     const currentWindEl = document.getElementById("wind-speed");
     const currentUVEl = document.getElementById("UV-index");
+    const inputEl = document.getElementById("city-input");
+    const searchEl = document.getElementById("search-button");
+    const clearEl = document.getElementById("clear-history");
+   
+    
    
 
     const APIKey = "5e4f5666d8989b75a622a12a2ba4b7cc";
@@ -73,3 +78,20 @@ function initPage() {
             })
         });  
     }
+// This section tracks the cities that searched, stores data in local storage and display those stored data/search history below the search bar
+searchEl.addEventListener("click",function() {
+    const searchTerm = inputEl.value;
+    getWeather(searchTerm);
+    searchHistory.push(searchTerm);
+    localStorage.setItem("search",JSON.stringify(searchHistory));
+    renderSearchHistory();
+})
+
+clearEl.addEventListener("click",function() {
+    searchHistory = [];
+    renderSearchHistory();
+})
+
+function k2f(K) {
+    return Math.floor((K - 273.15) *1.8 +32);
+}
