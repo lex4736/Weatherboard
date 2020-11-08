@@ -1,7 +1,7 @@
 <h1> Weatherboard</h1>
 <p></p>
 <h3>DESCRIPTION OF PROJECT</h3>
-A semantic html driven weather search application powered by the openweather API. This application allows user to input their desired city and the application will fetch data from openweather to display current conditions. It will also display the future 5 day forecast. The search history will be tracked and displayed under current search to allow user to go back and forth between their searches
+A weather search application powered by the openweather API with a responsive layout. This application allows user to input their desired city and  will fetch data from openweather to display current conditions and a future 5 day forecast. The search history will be tracked and displayed under current search to allow user to go back and forth between their searches
 
 <br><br>
 <h3>SUMMARY OF WORK COMPLETED</h3>
@@ -28,7 +28,7 @@ A semantic html driven weather search application powered by the openweather API
 <h3>PREVIEW OF FINAL RESULT</h3>
 <p>
 
-Select link below to view live Fall Themed Work Day Planner  Quiz <br>
+Select link below to view live Weatherboard Webpage <br>
 <a href="https://lex4736.github.io/Weatherboard/"> Click here to view webpage </a>
 <p>
 <b>See below for screenshot of the planner<b>
